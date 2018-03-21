@@ -1,0 +1,70 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	font-size: 14px;
+}
+ul,dl,form{margin:0px;padding:0px;}
+li{list-style:none;}
+img{border:0px;}
+.top {
+	background-color: #09F;
+	line-height: 30px;
+	height: 36px;
+}
+.top_left {
+	float: left;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	padding-left: 10px;
+}
+.top_left a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.top_tab {
+	float: right;
+	color: #FFF;
+}
+.top_tab a {
+	color: #FFF;
+	text-decoration: none;
+}
+.yytf {
+	height: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.explain_title {
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #09F;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	background-color: #F4F4F4;
+}
+.content {
+	width: 888px;
+	float: left;
+}
+.c_title {
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.exp {
+	line-height: 26px;
+	float: left;
+	padding-top: 20px;
+	width: 100%;
+}
+.mimg a img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
