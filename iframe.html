@@ -159,7 +159,7 @@
 		</ul>
 	</div>
 </div>
-<script type="text/javascript" src="ckplayer/ckplayer.js"></script>
+<script type="text/javascript" src="ckplayer/ckplayer-6.6.js"></script>
 <script type="text/javascript">
 	function loadedHandler(){
 		if(CKobject.getObjectById('ckplayer_a1').getType()){//说明使用html5播放器
@@ -208,7 +208,7 @@
 			e:0,
 			loaded:'loadedHandler'
 			};
-		CKobject.embed('/ckplayer/6.6/ckplayer.swf','a1','ckplayer_a1','600','400',false,flashvars,html5arr[n]);
+		CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',false,flashvars,html5arr[n]);
 		//强制前置广告显示
 		if(frontHtime){//后置广告正在进行中
 			if(nowD>0){
